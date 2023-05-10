@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: PaymentNetwork
-Description: Provides the PaymentNetwork Payment Gateway for WooCommerce
+Plugin Name: Card Saver LTD
+Description: Provides the Card Saver Payment Gateway for WooCommerce
 */
 
 /**
