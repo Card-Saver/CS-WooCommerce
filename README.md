@@ -1,9 +1,9 @@
 Disclaimer: Please note that we no longer support older versions of SDKs and Modules. We recommend that the latest versions are used.
 
-Card Saver Woocommerce Plugin
+Cardstream Woocommerce Plugin v3.0.0
 ==============
 
-This module enables the use of https://payment.card-saver.co.uk payment gateway using the Woocommerce project http://www.woothemes.com.
+This module enables the use of https://gateway.cardstream.com payment gateway using the Woocommerce project http://www.woothemes.com.
 
 COMPATIBILITY
 ------------
@@ -18,11 +18,11 @@ PHP-BCMaths
 INTRODUCTION
 ------------
 
-This module enables the woocommerce customers to pay for their items using the PaymentNetwork hosted form or direct payment gateway.
+This module enables the woocommerce customers to pay for their items using the Cardstream hosted form or direct payment gateway.
 
 What does it do?
 ----------------
-Presents the option to pay with credit card or debit card via the PaymentNetwork payment gateway.
+Presents the option to pay with credit card or debit card via the Cardstream payment gateway.
 
 
 INSTALLATION
@@ -48,7 +48,7 @@ Manual installation
 
 3. Go to WooCommerce -> Settings and click on the Checkout tab. 
 
-4. Find PaymentNetwork in the Payment Gateways section 
+4. Find Cardstream in the Payment Gateways section 
 
 5. Click the settings button to configure and enable the gateway.
 
@@ -77,3 +77,7 @@ a gateway URL i.e. https://gateway.cardstream.com to be entered in the plugin's 
 You will then need to select an integration type to use.
 
 The module will also need to be enabled so it appears as a payment option on the checkout.
+
+**NOTE:**
+ The gateway_validation_available flag should only be set to true if your Gateway Merchant ID has been enabled for Apple Pay. Enabling it without gateway configuration could result in issues with transactions. 
+
